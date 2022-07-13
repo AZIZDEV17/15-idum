@@ -10,457 +10,961 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
-<body oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;">
+<body id="body" oncontextmenu="return false;">
+    <img class="bg1" src="./img/istockphoto-1296463018-170667a.jpg" alt="Background_img_desktop">
+    <img class="bg2" src="./img/photo_2022-03-14_00-22-03.jpg" alt="Background_img_mobile">
     <header>
-        <div>
-            <div class="menu">
-                <a style="display: flex; align-items: center; justify-content: center;" href="https://www.uzedu.uz/"><img class="xtv_icon" src="./img/xtv_icon.jpg" width="50" alt="XTV rasmi"></a>
+        <div style="display: flex; justify-content: center;">
+            <div id="menud" class="menu">
+                <a style="display: flex; align-items: center; justify-content: center;" href="https://www.uzedu.uz/" target="_blank"><img class="xtv_icon" src="./img/xtv_icon.jpg" width="50" alt="XTV rasmi"></a>
                 <div class="menu_link">
-                    <a href="#home">UY</a>
+                    <button style="background-color: transparent; border: none;"><a style="color: var(--color);" id="homeclr" href="#home">BOSH SAHIFA</a></button>
                     <div class="dropdown">
-                        <button class="dropbtn"><a href="#staff">XODIMLAR</a></button>
+                        <button class="dropbtn btndrop"><a style="color: var(--color);" id="staffclr" href="#staff">XODIMLAR</a></button>
                         <div class="dropdown-content">
-                            <div class="dropdown_in">
-                                <button class="dropbtn_in btn1">Ma'muriyat</button>
-                                <div class="dropdown-content_in">
-                                    <a href="#">Direktor</a>
-                                    <a href="#">Direktor o`rinbosari</a>
-                                    <a href="#">MIBDO`</a>
+                            <div style="background-color: var(--bgcolor);" class="dropdown_in">
+                                <button style="color: var(--color);" class="dropbtn_in btn1">Ma'muriyat</button>
+                                <div style="background-color: var(--bgcolor);" class="dropdown-content_in">
+                                    <a style="color: var(--color);" href="#">Direktor</a>
+                                    <a style="color: var(--color);" href="#">Direktor o`rinbosari</a>
+                                    <a style="color: var(--color);" href="#">MIBDO`</a>
                                 </div>
                             </div>
-                            <div class="dropdown_in">
-                                <button class="dropbtn_in btn2">O`qituvchilar</button>
+                            <div style="background-color: var(--bgcolor);" class="dropdown_in">
+                                <button style="color: var(--color);" class="dropbtn_in btn2">O`qituvchilar</button>
                                 <div class="dropdown-content_in">
-                                    <div class="dropdown_in1">
-                                        <button class="dropbtn_in1 btn2_1">Sinf rahbarlari</button>
-                                        <div class="dropdown-content_in1">
+                                    <div style="background-color: var(--bgcolor);" class="dropdown_in1">
+                                        <button style="color: var(--color);" class="dropbtn_in1 btn2_1">Sinf rahbarlari</button>
+                                        <div style="background-color: var(--bgcolor);" class="dropdown-content_in1">
                                             <label for="">1-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">1-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">2-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">2-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">3-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">3-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">4-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">4-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">5-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">5-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">6-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">6-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">7-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">7-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">8-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">8-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">9-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">9-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">10-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">10-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">11-<sup>"A"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                             <label for="">11-<sup>"B"</sup>Sinf</label>
-                                            <a href="#">F.I.O</a>
+                                            <a style="color: var(--color);" href="#">F.I.O</a>
                                         </div>
                                     </div>
-                                    <div class="dropdown_in2">
-                                        <button class="dropbtn_in2 btn2_2">Fan o`qituvchilari</button>
-                                        <div class="dropdown-content_in2">
-                                            <label for="">Ona tili va Adabiyot</label>
-                                            <a href="#">Rahmonova Dilorom</a>
-                                            <a href="#">Ziyodullayeva Bahora</a>
-                                            <a href="#">Baqoyeva Dilnoza</a>
-                                            <label for=""></label>
+                                    <div style="background-color: var(--bgcolor);" class="dropdown_in2">
+                                        <button style="color: var(--color);" class="dropbtn_in2 btn2_2">Fan o`qituvchilari</button>
+                                        <div style="background-color: var(--bgcolor);" class="dropdown-content_in2">
+                                            <label for="">Informatika</label>
+                                            <button style="background-color: var(--bgcolor);" class="btn_link" onclick="uzoqova_lola()"><a style="color: var(--color);" href="#uzoqova_lola">Uzoqova Lola</a></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="dropdown_in">
-                                <button class="dropbtn_in btn3">Ishchilar</button>
-                                <div class="dropdown-content_in">
+                            <div style="background-color: var(--bgcolor);" class="dropdown_in">
+                                <button style="color: var(--color);" class="dropbtn_in btn3">Ishchilar</button>
+                                <div style="background-color: var(--bgcolor);" class="dropdown-content_in">
                                     <label for="">Qorovullar</label>
-                                    <a href="#">F.I.O</a>
-                                    <a href="#">F.I.O</a>
-                                    <a href="#">F.I.O</a>
+                                    <a style="color: var(--color);" href="#">F.I.O</a>
+                                    <a style="color: var(--color);" href="#">F.I.O</a>
+                                    <a style="color: var(--color);" href="#">F.I.O</a>
                                     <label for="">Farroshlar</label>
-                                    <a href="#">F.I.O</a>
-                                    <a href="#">F.I.O</a>
-                                    <a href="#">F.I.O</a>
+                                    <a style="color: var(--color);" href="#">F.I.O</a>
+                                    <a style="color: var(--color);" href="#">F.I.O</a>
+                                    <a style="color: var(--color);" href="#">F.I.O</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="dropdown">
-                        <button class="dropbtn"><a href="#pupils">O`QUVCHILAR</a></button>
-                        <div class="dropdown-content con_pup">
-                            <a href="#">1-<sup>"A"</sup>sinf</a>
-                            <a href="#">1-<sup>"B"</sup>sinf</a>
-                            <a href="#">2-<sup>"A"</sup>sinf</a>
-                            <a href="#">2-<sup>"B"</sup>sinf</a>
-                            <a href="#">3-<sup>"A"</sup>sinf</a>
-                            <a href="#">3-<sup>"B"</sup>sinf</a>
-                            <a href="#">4-<sup>"A"</sup>sinf</a>
-                            <a href="#">4-<sup>"B"</sup>sinf</a>
-                            <a href="#">5-<sup>"A"</sup>sinf</a>
-                            <a href="#">5-<sup>"B"</sup>sinf</a>
-                            <a href="#">6-<sup>"A"</sup>sinf</a>
-                            <a href="#">6-<sup>"B"</sup>sinf</a>
-                            <a href="#">7-<sup>"A"</sup>sinf</a>
-                            <a href="#">7-<sup>"B"</sup>sinf</a>
-                            <a href="#">8-<sup>"A"</sup>sinf</a>
-                            <a href="#">8-<sup>"B"</sup>sinf</a>
-                            <a href="#">9-<sup>"A"</sup>sinf</a>
-                            <a href="#">9-<sup>"B"</sup>sinf</a>
-                            <a href="#">10-<sup>"A"</sup>sinf</a>
-                            <a href="#">10-<sup>"B"</sup>sinf</a>
-                            <a href="#">11-<sup>"A"</sup>sinf</a>
-                            <a href="#">11-<sup>"B"</sup>sinf</a>
+                        <button class="dropbtn btndrop"><a style="color: var(--color);" id="pupilsclr" href="#pupils">O`QUVCHILAR</a></button>
+                        <div style="background-color: var(--bgcolor); color: var;" class="dropdown-content con_pup">
+                            <a style="color: var(--color);" href="#">1-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">1-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">2-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">2-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">3-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">3-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">4-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">4-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">5-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">5-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">6-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">6-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">7-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">7-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">8-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">8-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">9-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">9-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">10-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">10-<sup>"B"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">11-<sup>"A"</sup>sinf</a>
+                            <a style="color: var(--color);" href="#">11-<sup>"B"</sup>sinf</a>
                         </div>
                     </div>
                     <div class="dropdown">
-                        <button class="dropbtn"><a href="#rooms">XONALAR</a></button>
-                        <div class="dropdown-content con_rooms">
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
-                            <a href="#">xonasi</a>
+                        <button class="dropbtn btndrop"><a style="color: var(--color);" id="roomsclr" href="#rooms">XONALAR</a></button>
+                        <div style="background-color: var(--bgcolor);" class="dropdown-content con_rooms">
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
+                            <a style="color: var(--color);" href="#">xonasi</a>
                         </div>
                     </div>
                     <div class="dropdown">
-                        <button class="dropbtn"><a href="#about">HAQIDA</a></button>
-                        <div class="dropdown-content">
-                            <a href="#">Maktab haqida</a>
-                            <a href="#">Ishga joylashish haqida</a>
-                            <a href="#">Maktabga qabul haqida</a>
+                        <button class="dropbtn btndrop"><a style="color: var(--color);" id="aboutclr" href="#about">HAQIDA</a></button>
+                        <div style="background-color: var(--bgcolor);" class="dropdown-content">
+                            <a style="color: var(--color);" href="#">Maktab haqida</a>
+                            <a style="color: var(--color);" href="#">Ishga joylashish haqida</a>
+                            <a style="color: var(--color);" href="#">Maktabga qabul haqida</a>
                         </div>
                     </div>
                 </div>
                 <button onclick="menu()" id="menu_link" href="#menu">
                     <div class="menu_lines">
-                        <div class="menu_line"></div>
-                        <div class="menu_line"></div>
-                        <div class="menu_line"></div>
+                        <div id="menu_line1" class="menu_line"></div>
+                        <div id="menu_line2" class="menu_line"></div>
+                        <div id="menu_line3" class="menu_line"></div>
                     </div>
                 </button>
                 <div id="mobile_menu">
-                    <button style="display: block;" onclick="menu_close()" id="menu_close">X</button>
+                    <button style="display: block; " onclick="menu_close()" id="menu_close">X</button>
                     <ul class="mobile_ul">
-                        <a style="color: black; text-align: center; font-weight: bold; font-size: 17px;" href="#home">UY</a>
+                        <button style="background-color: transparent; border: none;">
+                            <a id="mobile_menu1" style="text-decoration: none; color: var(--color); text-align: center; font-weight: bold; font-size: 17px; padding-right: 5px;" href="#homem">BOSH SAHIFA</a>
+                        </button>
                         <div class="dropdown">
-                            <button class="dropbtn"><a href="#staff">XODIMLAR</a></button>
+                            <button class="dropbtn"><a style="color: var(--color);" id="mobile_menu2" href="#staff">XODIMLAR</a></button>
                             <div class="dropdown-content">
-                                <div class="dropdown_in">
-                                    <button class="dropbtn_in btn1">Ma'muriyat</button>
-                                    <div class="dropdown-content_in drop_in">
-                                        <a href="#">Direktor</a>
-                                        <a href="#">Direktor o`rinbosari</a>
-                                        <a href="#">MIBDO`</a>
+                                <div style="background-color: var(--bgcolor);" class="dropdown_in">
+                                    <button style="color: var(--color);" class="dropbtn_in btn1">Ma'muriyat</button>
+                                    <div style="background-color: var(--bgcolor);" class="dropdown-content_in drop_in">
+                                        <a style="color: var(--color);" href="#">Direktor</a>
+                                        <a style="color: var(--color);" href="#">Direktor o`rinbosari</a>
+                                        <a style="color: var(--color);" href="#">MIBDO`</a>
                                     </div>
                                 </div>
-                                <div class="dropdown_in">
-                                    <button class="dropbtn_in btn2">O`qituvchilar</button>
-                                    <div class="dropdown-content_in drop_in">
+                                <div style="background-color: var(--bgcolor);" class="dropdown_in">
+                                    <button style="color: var(--color);" class="dropbtn_in btn2">O`qituvchilar</button>
+                                    <div style="background-color: var(--bgcolor);" class="dropdown-content_in drop_in">
                                         <div class="dropdown_in1">
-                                            <button class="dropbtn_in1 btn2_1">Sinf rahbarlari</button>
-                                            <div class="dropdown-content_in1 drop-con">
+                                            <button style="color: var(--color);" class="dropbtn_in1 btn2_1">Sinf rahbarlari</button>
+                                            <div style="background-color: var(--bgcolor);" class="dropdown-content_in1 drop-con">
                                                 <label for="">1-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">1-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">2-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">2-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">3-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">3-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">4-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">4-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">5-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">5-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">6-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">6-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">7-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">7-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">8-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">8-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">9-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">9-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">10-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">10-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">11-<sup>"A"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                                 <label for="">11-<sup>"B"</sup>Sinf</label>
-                                                <a href="#">F.I.O</a>
+                                                <a style="color: var(--color);" href="#">F.I.O</a>
                                             </div>
                                         </div>
                                         <div class="dropdown_in2">
-                                            <button class="dropbtn_in2 btn2_2">Fan o`qituvchilari</button>
-                                            <div class="dropdown-content_in2 drop-con">
-                                                <label for="">Adabiyot</label>
-                                                <a href="#">Rahmonova Dilorom</a>
-                                                <a href="#">Ziyodullayeva Bahora</a>
-                                                <a href="#">Baqoyeva Dilnoza</a>
-                                                <label for=""></label>
+                                            <button style="color: var(--color);" class="dropbtn_in2 btn2_2">Fan o`qituvchilari</button>
+                                            <div style="background-color: var(--bgcolor);" class="dropdown-content_in2 drop-con">
+                                                <label for="">Informatika</label>
+                                                <button style="background-color: var(--bgcolor);" class="btn_link" onclick="uzoqova_lola()"><a style="color: var(--color);" href="#uzoqova_lola">Uzoqova Lola</a></button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="dropdown_in">
-                                    <button class="dropbtn_in btn3">Ishchilar</button>
-                                    <div class="dropdown-content_in">
+                                <div style="background-color: var(--bgcolor);" class="dropdown_in">
+                                    <button style="color: var(--color);" class="dropbtn_in btn3">Ishchilar</button>
+                                    <div style="background-color: var(--bgcolor);" class="dropdown-content_in">
                                         <label for="">Qorovullar</label>
-                                        <a href="#">F.I.O</a>
-                                        <a href="#">F.I.O</a>
-                                        <a href="#">F.I.O</a>
+                                        <a style="color: var(--color);" href="#">F.I.O</a>
+                                        <a style="color: var(--color);" href="#">F.I.O</a>
+                                        <a style="color: var(--color);" href="#">F.I.O</a>
                                         <label for="">Farroshlar</label>
-                                        <a href="#">F.I.O</a>
-                                        <a href="#">F.I.O</a>
-                                        <a href="#">F.I.O</a>
+                                        <a style="color: var(--color);" href="#">F.I.O</a>
+                                        <a style="color: var(--color);" href="#">F.I.O</a>
+                                        <a style="color: var(--color);" href="#">F.I.O</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn"><a href="#pupils">O`QUVCHILAR</a></button>
-                            <div class="dropdown-content con_pup dropdown-content_in">
-                                <a href="#">1-<sup>"A"</sup>sinf</a>
-                                <a href="#">1-<sup>"B"</sup>sinf</a>
-                                <a href="#">2-<sup>"A"</sup>sinf</a>
-                                <a href="#">2-<sup>"B"</sup>sinf</a>
-                                <a href="#">3-<sup>"A"</sup>sinf</a>
-                                <a href="#">3-<sup>"B"</sup>sinf</a>
-                                <a href="#">4-<sup>"A"</sup>sinf</a>
-                                <a href="#">4-<sup>"B"</sup>sinf</a>
-                                <a href="#">5-<sup>"A"</sup>sinf</a>
-                                <a href="#">5-<sup>"B"</sup>sinf</a>
-                                <a href="#">6-<sup>"A"</sup>sinf</a>
-                                <a href="#">6-<sup>"B"</sup>sinf</a>
-                                <a href="#">7-<sup>"A"</sup>sinf</a>
-                                <a href="#">7-<sup>"B"</sup>sinf</a>
-                                <a href="#">8-<sup>"A"</sup>sinf</a>
-                                <a href="#">8-<sup>"B"</sup>sinf</a>
-                                <a href="#">9-<sup>"A"</sup>sinf</a>
-                                <a href="#">9-<sup>"B"</sup>sinf</a>
-                                <a href="#">10-<sup>"A"</sup>sinf</a>
-                                <a href="#">10-<sup>"B"</sup>sinf</a>
-                                <a href="#">11-<sup>"A"</sup>sinf</a>
-                                <a href="#">11-<sup>"B"</sup>sinf</a>
+                            <button class="dropbtn"><a style="color: var(--color);" id="mobile_menu3" href="#pupils">O`QUVCHILAR</a></button>
+                            <div style="background-color: var(--bgcolor);" class="dropdown-content con_pup dropdown-content_in">
+                                <a style="color: var(--color);" href="#">1-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">1-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">2-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">2-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">3-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">3-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">4-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">4-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">5-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">5-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">6-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">6-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">7-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">7-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">8-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">8-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">9-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">9-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">10-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">10-<sup>"B"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">11-<sup>"A"</sup>sinf</a>
+                                <a style="color: var(--color);" href="#">11-<sup>"B"</sup>sinf</a>
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn"><a href="#rooms">XONALAR</a></button>
-                            <div class="dropdown-content con_rooms dropdown-content_in">
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
-                                <a href="#">xonasi</a>
+                            <button class="dropbtn"><a style="color: var(--color);" id="mobile_menu4" href="#rooms">XONALAR</a></button>
+                            <div style="background-color: var(--bgcolor);" class="dropdown-content con_rooms dropdown-content_in">
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
+                                <a style="color: var(--color);" href="#">xonasi</a>
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn"><a href="#about">HAQIDA</a></button>
-                            <div class="dropdown-content">
-                                <a href="#">Maktab haqida</a>
-                                <a href="#">Ishga joylashish haqida</a>
-                                <a href="#">Maktabga qabul haqida</a>
+                            <button class="dropbtn"><a style="color: var(--color);" id="mobile_menu5" href="#about">HAQIDA</a></button>
+                            <div style="background-color: var(--bgcolor);" class="dropdown-content">
+                                <a style="color: var(--color);" href="#">Maktab haqida</a>
+                                <a style="color: var(--color);" href="#">Ishga joylashish haqida</a>
+                                <a style="color: var(--color);" href="#">Maktabga qabul haqida</a>
                             </div>
                         </div>
                     </ul>
                 </div>
                 <div>
-                    <div class="tel">
-                        <div class="tel_img"><img src="./img/icons8-phone-50.png" width="15" alt="TEL"></div>
-                        <a href="tel:933382730">93 338 27 30</a>
+                    <div id="lr">
+                        <div class="login">
+                            <a onclick="Login()" href="#login_in">KIRISH</a>
+                        </div>
+                        <div class="lr_con"></div>
+                        <div class="register">
+                            <a onclick="Register()" href="#register">RO`YXATDAN O`TISH</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="home" class="container">
-            <div class="timer"></div>
-            <div class="slideshow">
-                <div class="slide">
-                    <img src="./img/@WallpapersGram4k_vestrahorn_islande.jpg" width="100%" alt="">
-                    <div class="text">
-                        <h2 style="display: none;"  id="typed-text">IDUM - Iqtisoslashgan Davlat O`<sup>(U)</sup>quv Muassasasi</h2>
-                        <h2 id="demo"></h2>
+        <div style="display: flex; justify-content: center;">
+            <div id="home" class="container">
+                <div class="timer"></div>
+                <div class="slideshow">
+                    <div class="slide">
+                        <img src="./img/istockphoto-1296463018-170667a.jpg" width="100%" alt="">
+                        <div class="text">
+                            <h2 style="display: none;"  id="typed-text">IDUM - Iqtisoslashgan Davlat O`quv Muassasasi</h2>
+                            <h2 id="demo"></h2>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./img/1400__100_2448056179.jpg" width="100%" alt="">
+                        <div class="text">
+                            <h2>15-IDUM - Informatika va axborot texnologiyalariga ixtisoslashgan</h2>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./img/720__IGMOCdUXFQjnblkDAikh67yjB2YtJ_h_.jpg" width="100%" alt="">
+                        <div class="text">
+                            <h2>Informatika xonasi</h2>
+                        </div>
                     </div>
                 </div>
-                <div class="slide">
-                    <img src="./img/@WallpapersGram4k_vasco_da_gama_.jpg" width="100%" alt="">
-                    <div class="text">
-                        <h2>15-IDUM - Informatika va axborot texnologiyalariga ixtisoslashgan</h2>
-                    </div>
+            </div>
+            <div id="homem" class="slideshow-container">
+                <div class="mySlides fade">
+                <img src="./img/istockphoto-1296463018-170667a.jpg" style="width:100%">
+                <div class="text">
+                    <h2>IDUM - Iqtisoslashgan Davlat O`quv Muassasasi</h2>
                 </div>
-                <div class="slide">
-                    <img src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" width="100%" alt="">
-                    <div class="text">
-                        <h2>Informatika xonasi</h2>
-                    </div>
                 </div>
-            </div>
-        </div>
-        <div id="home" class="slideshow-container">
-            <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="./img/@WallpapersGram4k_vasco_da_gama_.jpg" style="width:100%">
-            <div class="text">
-                <h2>IDUM - Iqtisoslashgan Davlat O`<sup>(U)</sup>quv Muassasasi</h2>
-            </div>
-            </div>
-            <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" style="width:100%">
-            <div class="text">
-                <h2>15-IDUM - Informatika va axborot texnologiyalariga ixtisoslashgan</h2>
-            </div>
-            </div>
-            <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="./img/@WallpapersGram4k_vestrahorn_islande.jpg" style="width:100%">
-            <div class="text">
-                <h2>Informatika xonasi</h2>
-            </div>
+                <div class="mySlides fade">
+                <img src="./img/1400__100_2448056179.jpg" style="width:100%">
+                <div class="text">
+                    <h2>15-IDUM - Informatika va axborot texnologiyalariga ixtisoslashgan</h2>
+                </div>
+                </div>
+                <div class="mySlides fade">
+                <img src="./img/720__IGMOCdUXFQjnblkDAikh67yjB2YtJ_h_.jpg" style="width:100%">
+                <div class="text">
+                    <h2>Informatika xonasi</h2>
+                </div>
+                </div>
             </div>
         </div>
     </header>
-    <main>
-        <div>
-            <h2 id="staff">Xodimlar</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi blanditiis possimus minus asperiores veniam officia. Nostrum adipisci qui laudantium quia reprehenderit expedita dignissimos quo pariatur cum harum, accusamus illo ullam consectetur mollitia atque aut perferendis maiores eum repellendus fugit molestiae, sed fugiat? Maiores ad voluptas tempora ipsam, atque autem obcaecati, omnis nisi saepe qui voluptatum, provident optio illo cupiditate pariatur deserunt aperiam. Minus nemo veritatis, exercitationem porro natus quisquam cupiditate eaque debitis optio architecto enim neque modi dolorem eveniet ullam vero dolorum, nulla incidunt commodi quod quae culpa id. Ab nesciunt corporis maiores dolores illo. Tempora quis eaque nam!</h3>
-            <div class="staff_con">
-                <div class="staff_con_in">
-                    <p>Umumiy xodimlar soni</p>
-                    <p id="count1"></p>
-                </div>
-                <div class="staff_con_in con_in">
-                    <div>
-                        <p>O`qituvchilar soni</p>
-                        <p id="count1_1"></p>
+    <div class="main_aside">
+        <main id="menu">
+            <form id="login_in" name="login_in" action="https://15-idum.000webhostapp.com/login.php" method="post" onsubmit="return validateLogin()" required>
+                <label for="log">Login<span style="color: red;"> *</span></label>
+                <input style="background-color: var(--bgcolor); color: var(--color);" type="text" id="log" name="log" placeholder="Loginni kiriting"><br>
+                <label for="pas">Parol<span style="color: red;"> *</span></label>
+                <input style="background-color: var(--bgcolor); color: var(--color);" type="text" id="pas" name="pas" placeholder="Parolni kiriting">
+                <button style="padding: 3px 10px; margin: 10px;" class="submit_button" type="submit">Kirish</button>
+            </form>
+            <form id="register" name="register" action="https://15-idum.000webhostapp.com/register.php" method="post" onsubmit="return validateRegister()" required>
+                <label for="fname">Ismingiz<span style="color: red;"> *</span></label>
+                <input style="background-color: var(--bgcolor); color: var(--color);" placeholder="Ismingizni kiriting" type="text" id="fname" name="fname"><br>
+                <label for="lname">Familiyangiz<span style="color: red;"> *</span></label>
+                <input style="background-color: var(--bgcolor); color: var(--color);" placeholder="Familiyangizni kiriting" type="text" id="lname" name="lname"><br>
+                <label for="contacts">Telefon yoki email pochtangiz</label>
+                <input style="background-color: var(--bgcolor); color: var(--color);" placeholder="Telefon yoki email pochtangizni kiriting" type="text" id="contacts" name="contacts"><br>
+                <label for="login">Yangi login kiriting<span style="color: red;"> *</span></label>
+                <input style="background-color: var(--bgcolor); color: var(--color);" placeholder="Yangi loginni kiriting" type="text" id="login" name="login"><br>
+                <label for="password">Yangi parol kiriting<span style="color: red;"> *</span></label>
+                <input style="background-color: var(--bgcolor); color: var(--color);" placeholder="Yangi parolni kiriting" type="text" id="password" name="password">
+                <button style="padding: 3px 10px; margin: 10px;" class="submit_button" type="submit">Ro`yxatdan o`tish</button>
+            </form>
+            <div>
+                <h2 id="staff">Xodimlar</h2>
+                <div id="scroll1" class="scroll1 hide2">
+                    <div class="menu_con1">
+                        <img class="menu_img" width="45%" src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" alt="">
+                        <p class="h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quam fugit laboriosam aliquid alias praesentium libero fuga recusandae expedita ex. Beatae inventore temporibus non rerum eveniet dolor a, architecto vitae tenetur sint perferendis veritatis possimus saepe itaque dolore id eum repellendus in ipsum corporis cupiditate. Voluptatibus amet numquam doloremque obcaecati.</p>
                     </div>
-                    <div>
-                        <p>Ishchi xodimlar soni</p>
-                        <p id="count1_2"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <h2 id="pupils">O`quvchilar</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi blanditiis possimus minus asperiores veniam officia. Nostrum adipisci qui laudantium quia reprehenderit expedita dignissimos quo pariatur cum harum, accusamus illo ullam consectetur mollitia atque aut perferendis maiores eum repellendus fugit molestiae, sed fugiat? Maiores ad voluptas tempora ipsam, atque autem obcaecati, omnis nisi saepe qui voluptatum, provident optio illo cupiditate pariatur deserunt aperiam. Minus nemo veritatis, exercitationem porro natus quisquam cupiditate eaque debitis optio architecto enim neque modi dolorem eveniet ullam vero dolorum, nulla incidunt commodi quod quae culpa id. Ab nesciunt corporis maiores dolores illo. Tempora quis eaque nam!</h3>
-            <div class="pupils_con">
-                <div class="pupils_con_in">
-                    <p>Umumiy o`quvchilar soni</p>
-                    <p id="count2"></p>
-                </div>
-                <div class="pupils_con_in con_in">
-                    <div>
-                        <p>1-4-sinflardagi o`quvchilar soni</p>
-                        <p id="count2_1"></p>
-                    </div>
-                    <div>
-                        <p>5-11-sinflardagi o`quvchilar soni</p>
-                        <p id="count2_2"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <h2 id="rooms">Xonalar</h2>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi quasi blanditiis possimus minus asperiores veniam officia. Nostrum adipisci qui laudantium quia reprehenderit expedita dignissimos quo pariatur cum harum, accusamus illo ullam consectetur mollitia atque aut perferendis maiores eum repellendus fugit molestiae, sed fugiat? Maiores ad voluptas tempora ipsam, atque autem obcaecati, omnis nisi saepe qui voluptatum, provident optio illo cupiditate pariatur deserunt aperiam. Minus nemo veritatis, exercitationem porro natus quisquam cupiditate eaque debitis optio architecto enim neque modi dolorem eveniet ullam vero dolorum, nulla incidunt commodi quod quae culpa id. Ab nesciunt corporis maiores dolores illo. Tempora quis eaque nam!</h3>
-            <div class="rooms_con">
-                <div class="rooms_con_in">
-                    <p>Umumiy xonalar soni</p>
-                    <p id="count3"></p>
-                </div>
-                <div class="rooms_con_in con_in">
-                    <div>
-                        <p>Xodimlar xonalari soni</p>
-                        <p id="count3_1"></p>
-                    </div>
-                    <div>
-                        <p>O`quvchilar xonalari soni</p>
-                        <p id="count3_2"></p>
+                    <div class="staff_con">
+                        <div class="staff_con_in">
+                            <p>Umumiy xodimlar soni</p>
+                            <p id="count1"></p>
+                        </div>
+                        <div class="staff_con_in con_in">
+                            <div>
+                                <p>O`qituvchilar soni</p>
+                                <p id="count1_1"></p>
+                            </div>
+                            <div>
+                                <p>Ishchi xodimlar soni</p>
+                                <p id="count1_2"></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <h2 id="about">Haqida</h2>
-            <div class="about">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, iure et. Saepe recusandae excepturi, deleniti illo amet totam provident quos dignissimos harum iusto impedit dolores unde ducimus, et cupiditate cum maiores quidem nesciunt alias consequatur sed perspiciatis exercitationem optio odio. Voluptatibus a iusto, quam veniam consequuntur magnam facilis maxime veritatis. Ullam assumenda illo laboriosam illum dolor itaque, tempore obcaecati fugit. Excepturi voluptatibus vitae doloribus voluptates, dolores maiores itaque aspernatur cupiditate eos quod est assumenda quis. Ipsum minus ea et exercitationem numquam? Alias aliquid doloremque ducimus excepturi a nemo aspernatur reprehenderit assumenda? Minus veniam culpa labore soluta ipsum deleniti eaque accusamus?</p>
+            <div>
+                <h2 id="pupils">O`quvchilar</h2>
+                <div id="scroll2" class="scroll1 hide2">
+                    <div class="menu_con1">
+                        <img class="menu_img" width="45%" src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" alt="">
+                        <p class="h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quam fugit laboriosam aliquid alias praesentium libero fuga recusandae expedita ex. Beatae inventore temporibus non rerum eveniet dolor a, architecto vitae tenetur sint perferendis veritatis possimus saepe itaque dolore id eum repellendus in ipsum corporis cupiditate. Voluptatibus amet numquam doloremque obcaecati.</p>
+                    </div>
+                    <div class="pupils_con">
+                        <div class="pupils_con_in">
+                            <p>Umumiy o`quvchilar soni</p>
+                            <p id="count2"></p>
+                        </div>
+                        <div class="pupils_con_in con_in">
+                            <div>
+                                <p>1-4-sinflardagi o`quvchilar soni</p>
+                                <p id="count2_1"></p>
+                            </div>
+                            <div>
+                                <p>5-11-sinflardagi o`quvchilar soni</p>
+                                <p id="count2_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="rooms">Xonalar</h2>
+                <div id="scroll3" class="scroll1 hide2">
+                    <div class="menu_con1">
+                        <img class="menu_img" width="45%" src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" alt="">
+                        <p class="h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quam fugit laboriosam aliquid alias praesentium libero fuga recusandae expedita ex. Beatae inventore temporibus non rerum eveniet dolor a, architecto vitae tenetur sint perferendis veritatis possimus saepe itaque dolore id eum repellendus in ipsum corporis cupiditate. Voluptatibus amet numquam doloremque obcaecati.</p>
+                    </div>
+                    <div class="rooms_con">
+                        <div class="rooms_con_in">
+                            <p>Umumiy xonalar soni</p>
+                            <p id="count3"></p>
+                        </div>
+                        <div class="rooms_con_in con_in">
+                            <div>
+                                <p>Xodimlar xonalari soni</p>
+                                <p id="count3_1"></p>
+                            </div>
+                            <div>
+                                <p>O`quvchilar xonalari soni</p>
+                                <p id="count3_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="about">Haqida</h2>
+                <div id="scroll4" class="scroll1 hide2">
+                    <div class="about">
+                        <div class="menu_con1">
+                            <img class="menu_img" width="45%" src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" alt="">
+                            <p class="about_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quam fugit laboriosam aliquid alias praesentium libero fuga recusandae expedita ex. Beatae inventore temporibus non rerum eveniet dolor a, architecto vitae tenetur sint perferendis veritatis possimus saepe itaque dolore id eum repellendus in ipsum corporis cupiditate. Voluptatibus amet numquam doloremque obcaecati.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside>
+            <div class="news">
+                <h2 style="padding-top: 50px;">Yangiliklar</h2>
+                <div id="news" class="scroll1 hide2">
+                    <img src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" width="100%" alt="achievements1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ullam dignissimos numquam neque doloribus dolorum, cupiditate soluta maxime sunt quisquam, tempore blanditiis culpa libero vitae veniam? Voluptatibus nesciunt voluptatum culpa!</p>
+                </div>
+                <div id="scroll6" class="scroll1 hide2">
+                    <img src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" width="100%" alt="achievements1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ullam dignissimos numquam neque doloribus dolorum, cupiditate soluta maxime sunt quisquam, tempore blanditiis culpa libero vitae veniam? Voluptatibus nesciunt voluptatum culpa!</p>
+                </div>
+                <div id="scroll7" class="scroll1 hide2">
+                    <img src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" width="100%" alt="achievements1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ullam dignissimos numquam neque doloribus dolorum, cupiditate soluta maxime sunt quisquam, tempore blanditiis culpa libero vitae veniam? Voluptatibus nesciunt voluptatum culpa!</p>
+                </div>
+            </div>
+            <div class="achievements">
+                <h2>Yutuqlar</h2>
+                <div id="scroll8" class="scroll1 hide2">
+                    <img src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" width="100%" alt="achievements1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ullam dignissimos numquam neque doloribus dolorum, cupiditate soluta maxime sunt quisquam, tempore blanditiis culpa libero vitae veniam? Voluptatibus nesciunt voluptatum culpa!</p>
+                </div>
+                <div id="scroll9" class="scroll1 hide2">
+                    <img src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" width="100%" alt="achievements1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ullam dignissimos numquam neque doloribus dolorum, cupiditate soluta maxime sunt quisquam, tempore blanditiis culpa libero vitae veniam? Voluptatibus nesciunt voluptatum culpa!</p>
+                </div>
+                <div id="scroll10" class="scroll1 hide2">
+                    <img src="./img/@WallpapersGram4k_dubai_3840x2160.jpg" width="100%" alt="achievements1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ullam dignissimos numquam neque doloribus dolorum, cupiditate soluta maxime sunt quisquam, tempore blanditiis culpa libero vitae veniam? Voluptatibus nesciunt voluptatum culpa!</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <div class="useful_links">
+        <h2 class="use_h2">Foydali saytlar<sup style="border: 1px solid var(--primary-color); color: var(--color); border-radius: 50px; font-size: 15px; margin-left: 5px; padding: 3px 5px;">O`zbek</sup></h2>
+        <div class="useful_container">
+            <div class="useful_con">
+                <a href="http://ziyonet.uz" title="Ziyonet.uz" target="_blank">
+                    <img src="./img/ziyonet.png" alt="Ziyonet.uz">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://kitob.uz" title="kitob.uz" target="_blank">
+                    <img src="./img/kitob.uz.png" alt="kitob.uz">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://maktab.uz" title="maktab.uz" target="_blank">
+                    <img src="./img/maktab.uz.png" width="25px" alt="maktab.uz">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://kitobxon.com" title="kitobxon.com" target="_blank">
+                    <img src="./img/kitobxon.com.png" alt="kitobxon.com">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://ziyouz.com" title="ziyouz.com" target="_blank">
+                    <img src="./img/ziyouz.com.png" alt="ziyouz.com">
+                </a>
             </div>
         </div>
-    </main>
-    <footer></footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <h2 class="use_h2">Foydali saytlar<sup style="border: 1px solid var(--primary-color); color: var(--color); border-radius: 50px; font-size: 15px; margin-left: 5px; padding: 3px 5px;">Xorijiy</sup></h2>
+        <div class="useful_container">
+            <div class="useful_con">
+                <a href="https://edx.org" title="edx.org" target="_blank">
+                    <img src="./img/edx.org.png" alt="edx.org">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://coursera.org" title="coursera.org" target="_blank">
+                    <img src="./img/coursera.org.png" alt="coursera.org">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://w3schools.com" title="w3schools.com" target="_blank">
+                    <img style="width: 125px;" src="./img/w3schools.com.png" alt="w3schools.com">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://codepen.io/" title="codepen.io" target="_blank">
+                    <img src="./img/codeopen.io.png" alt="codepen.io">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://codecademy.com" title="codecademy.com" target="_blank">
+                    <img src="./img/codecademy.com.png" alt="codecademy.com">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://udacity.com" title="udacity.com" target="_blank">
+                    <img src="./img/udacity.com.png" alt="udacity.com">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://code.org" title="code.org" target="_blank">
+                    <img style="width: 100px;" src="./img/code.org.png" alt="code.org">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://datacamp.com" title="datacamp.com" target="_blank">
+                    <img style="width: 70px;" src="./img/datacamp.com.png" alt="datacamp.com">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://dataquest.io" title="dataquest.io" target="_blank">
+                    <img src="./img/dataquest.io.png" alt="dataquest.io">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://dash.generalassemb.ly" title="dash.generalassemb.ly" target="_blank">
+                    <img src="./img/dash.generalassemb.ly.png" alt="dash.generalassemb.ly">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://khanacademy.org" title="khanacademy.org" target="_blank">
+                    <img style="width: 100px;" src="./img/khanacademy.org.png" alt="khanacademy.org">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://duolingo.com" title="duolingo.com" target="_blank">
+                    <img style="width: 100px;" src="./img/duolingo.com.png" alt="duolingo.com">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://lingvist.io" title="lingvist.io" target="_blank">
+                    <img src="./img/lingvist.io.png" alt="lingvist.io">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://busuu.com" title="busuu.com" target="_blank">
+                    <img style="width: 100px;" src="./img/busuu.com.png" alt="busuu.com">
+                </a>
+            </div>
+            <div class="useful_con">
+                <a href="https://curious.com" title="curious.com" target="_blank">
+                    <img style="width: 100px;" src="./img/curious.com.png" alt="curious.com">
+                </a>
+            </div>
+        </div>
+        <h2 class="use_h2">Darsliklar</h2>
+        <div class="useful_container books">
+            <button onclick="class1()">
+                <a href="#class1">1-sinf</a>
+            </button>
+            <button onclick="class2()">
+                <a href="#class2">2-sinf</a>
+            </button>
+            <button onclick="class3()">
+                <a href="#class3">3-sinf</a>
+            </button>
+            <button onclick="class4()">
+                <a href="#class4">4-sinf</a>
+            </button>
+            <button onclick="class5()">
+                <a href="#class5">5-sinf</a>
+            </button>
+            <button onclick="class6()">
+                <a href="#class6">6-sinf</a>
+            </button>
+            <button onclick="class7()">
+                <a href="#class7">7-sinf</a>
+            </button>
+            <button onclick="class8()">
+                <a href="#class8">8-sinf</a>
+            </button>
+            <button onclick="class9()">
+                <a href="#class9">9-sinf</a>
+            </button>
+            <button onclick="class10()">
+                <a href="#class10">10-sinf</a>
+            </button>
+            <button onclick="class11()">
+                <a href="#class11">11-sinf</a>
+            </button>
+        </div>
+        <div id="class1" class="class">
+            <h3>1-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=10544:alifbe-1-sinf-2018-r-safarova-m-inoyatova">1-sinf (2018, R.Safarova, M.Inoyatova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=9207:atrofimizdagi-olam-1-sinf-2016-n-mamadinova-m-ahmedova">Atrofimizdagi olam. 1-sinf (2016, N.Mamadinova, M.Ahmedova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=10547:ingliz-tili-1-sinf-2018-m-irisqulov-s-xan">Ingliz tili. 1-sinf (2018, M.Irisqulov, S.Xan)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=9210:jismoniy-tarbiya-1-sinf-2017-k-mahkamjonov-f-xo-jayev">Jismoniy tarbiya. 1-sinf (2017, K.Mahkamjonov, F.Xo'jayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=10548:matematika-daftari-1-sinf-2018-m-jumayev-m-ahmedov">Matematika daftari. 1-sinf (2018, M,Jumayev, M.Ahmedov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=10549:matematika-1-sinf-2018-m-ahmedov-n-abdurahmonova">Matematika. 1-sinf (2018, M.Ahmedov, N.Abdurahmonova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=10550:musiqa-1-sinf-2018-h-nurmatov-n-norxo-jayev">Musiqa. 1-sinf (2018, H.Nurmatov, N.Norxo'jayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=9215:o-qish-kitobi-1-sinf-2017-t-g-afforova-e-shodmonov">O'qish kitobi. 1-sinf (2017, T.G'afforova, E.Shodmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=10551:odobnoma-1-sinf-2018-o-hasanboyeva-m-inoyatova">Odobnoma. 1-sinf (2018, O.Hasanboyeva, M.Inoyatova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=9217:ona-tili-1-sinf-2017-t-g-afforova-e-shodmonov">Ona tili. 1-sinf (2017, T.G'afforova, E.Shodmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=13283:tarbiya-1-sinf-2020-n-ismatova-d-ro-ziyeva">Tarbiya. 1-sinf (2020, N.Ismatova, D.Ro'ziyeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=10552:tasviriy-san-at-1-sinf-2018-r-hasanov">Tasviriy san'at. 1-sinf (2018, R.Hasanov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=10553:texnologiya-1-sinf-2017-i-mannopova-r-mavlonova">Texnologiya. 1-sinf (2017, I.Mannopova, R.Mavlonova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/193-1-sinf?download=10554:yozuv-daftari-1-sinf-2018-m-g-ulomov">Yozuv daftari. 1-sinf (2018, M.G'ulomov)</a>
+        </div>
+        <div id="class2" class="class">
+            <h3>2-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10555:atrofimizdagi-olam-2-sinf-2018-p-g-ulomov-sh-mirzahmatova">Atrofimizdagi olam. 2-sinf (2018, P.G'ulomov, Sh.Mirzahmatova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10556:ingliz-tili-daftari-2-sinf-2018-s-xan-l-jo-rayev">Ingliz tili daftari. 2-sinf (2018, S.Xan, L.Jo'rayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10557:ingliz-tili-2-sinf-2018-s-xan-l-jo-rayev">Ingliz tili. 2-sinf (2018, S.Xan, L.Jo'rayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10558:jismoniy-tarbiya-2-sinf-2018-k-mahkamjonov-f-xo-jayev">Jismoniy tarbiya. 2-sinf (2018, K.Mahkamjonov, F.Xo'jayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10559:matematika-2-sinf-2018-n-abdurahmonova-l-o-rinboyeva">Matematika. 2-sinf (2018, N.Abdurahmonova, L.O'rinboyeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=9227:mehnat-ta-limi-2-sinf-2016-x-sanakulov-d-xodiyeva">Mehnat ta'limi. 2-sinf (2016, X.Sanakulov, D.Xodiyeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10560:musiqa-2-sinf-2018-h-nurmatov-n-norxo-jayev">Musiqa. 2-sinf (2018, H.Nurmatov, N.Norxo'jayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10562:o-qish-kitobi-2-sinf-2018-t-g-afforova-sh-nurullayeva">O'qish kitobi. 2-sinf (2018, T.G'afforova, Sh.Nurullayeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10563:odobnoma-2-sinf-2018-o-hasanboyeva-m-inoyatov">Odobnoma. 2-sinf (2018, O.Hasanboyeva, M.Inoyatov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10564:ona-tili-2-sinf-2018-k-qosimova-s-fuzailov">Ona tili. 2-sinf (2018, K.Qosimova, S.Fuzailov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10565:rus-tili-2-sinf-2018-z-abduraimova">Rus tili. 2-sinf (2018, Z.Abduraimova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=13284:tarbiya-2-sinf-2020-n-ismatova-s-zokirova">Tarbiya. 2-sinf (2020, N.Ismatova, S.Zokirova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10566:tasviriy-san-at-2-sinf-2018-m-isoqova-r-hasanov">Tasviriy san'at. 2-sinf (2018, M.Isoqova, R.Hasanov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/194-2-sinf?download=10567:texnologiya-2-sinf-2018-x-sanakulov-d-xodiyeva">Texnologiya. 2-sinf (2018, X.Sanakulov, D.Xodiyeva)</a>
+        </div>
+        <div id="class3" class="class">
+            <h3>3-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9237:ingliz-tili-daftari-3-sinf-2017-s-xan-l-jo-rayev">Ingliz tili daftari. 3-sinf (2017, S.Xan, L.Jo'rayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9238:ingliz-tili-3-sinf-2017-s-xan-l-jo-rayev">Ingliz tili. 3-sinf (2017, S.Xan, L.Jo'rayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9239:jismoniy-tarbiya-3-sinf-2016-k-mahkamjonov-f-xo-jayev">Jismoniy tarbiya. 3-sinf (2016, K.Mahkamjonov, F.Xo'jayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9240:matematika-3-sinf-2016-s-burxonov-o-xudoyorov">Matematika. 3-sinf (2016, S.Burxonov, O'.Xudoyorov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9241:mehnat-ta-limi-3-sinf-2016-x-sanakulov-d-xodiyeva">Mehnat ta'limi. 3-sinf (2016, X.Sanakulov, D.Xodiyeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9242:musiqa-3-sinf-2016-h-nurmatov-n-norxo-jayev">Musiqa. 3-sinf (2016, H.Nurmatov, N.Norxo'jayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9244:o-qish-kitobi-3-sinf-2016-m-umarova-x-hamroqulova">O'qish kitobi. 3-sinf (2016, M.Umarova, X.Hamroqulova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9245:odobnoma-3-sinf-2016-m-xoliqova-sh-ergasheva">Odobnoma. 3-sinf (2016, M.Xoliqova, Sh.Ergasheva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9246:ona-tili-3-sinf-2016-s-fuzailov-m-xudoyberganova">Ona tili. 3-sinf (2016, S.Fuzailov, M.Xudoyberganova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=9247:rus-tili-3-sinf-2016-n-sergeyeva-o-korchuganova">Rus tili. 3-sinf (2016, N.Sergeyeva, O.Korchuganova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=10570:tabiatshunoslik-3-sinf-2016-a-bahromov-sh-sharipov">Tabiatshunoslik. 3-sinf (2016, A.Bahromov, Sh.Sharipov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=13285:tarbiya-3-sinf-2020-d-ro-ziyeva-n-ismatova">Tarbiya. 3-sinf (2020, D.Ro'ziyeva, N.Ismatova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/195-3-sinf?download=10571:tasviriy-san-at-3-sinf-2016-m-isaqova-r-hasanov">Tasviriy san'at. 3-sinf (2016, M.Isaqova, R.Hasanov)</a>
+        </div>
+        <div id="class4" class="class">
+            <h3>4-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9252:ingliz-tili-daftari-4-sinf-2017-s-xan-l-jo-rayev">Ingliz tili daftari. 4-sinf (2017, S.Xan, L.Jo'rayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=10572:ingliz-tili-4-sinf-2018-s-xan-l-jo-rayev">Ingliz tili. 4-sinf (2018, S.Xan, L.Jo'rayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9254:jismoniy-tarbiya-4-sinf-2017-k-mahkamjonov-f-xo-jayev">Jismoniy tarbiya. 4-sinf (2017, K.Mahkamjonov, F.Xo'jayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9255:matematika-4-sinf-2017-n-bikbayeva-e-yangabayeva">Matematika. 4-sinf (2017, N.Bikbayeva, E.Yangabayeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9256:musiqa-4-sinf-2017-o-ibrohimov">Musiqa. 4-sinf (2017, O.Ibrohimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9259:o-qish-kitobi-4-sinf-2017-s-matchonov-a-shojalilov">O'qish kitobi. 4-sinf (2017, S.Matchonov, A.Shojalilov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9260:odobnoma-4-sinf-2017-m-xoliqova-sh-ergasheva">Odobnoma. 4-sinf (2017, M.Xoliqova, Sh.Ergasheva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9261:ona-tili-4-sinf-2017-r-ikromova-x-g-ulomova">Ona tili. 4-sinf (2017, R.Ikromova, X.G'ulomova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9262:rus-tili-4-sinf-2016-m-karimova-g-mamatisayeva">Rus tili. 4-sinf (2016, M.Karimova, G.Mamatisayeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9263:tabiatshunoslik-4-sinf-2017-a-bahromov-sh-sharipov">Tabiatshunoslik. 4-sinf (2017, A.Bahromov, Sh.Sharipov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=13286:tarbiya-4-sinf-2020-s-shermuhamedova-s-akkulova">Tarbiya. 4-sinf (2020, S.Shermuhamedova, S.Akkulova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9264:tasviriy-san-at-4-sinf-2017-a-sulaymonov-i-rahmonov">Tasviriy san'at. 4-sinf (2017, A.Sulaymonov, I.Rahmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/196-4-sinf?download=9265:texnologiya-4-sinf-2017-i-mannopova-r-mavlonova">Texnologiya. 4-sinf (2017, I.Mannopova, R.Mavlonova)</a>
+        </div>
+        <div id="class5" class="class">
+            <h3>5-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10574:adabiyot-5-sinf-1-qism-2015-s-ahmedov-b-qosimov">Adabiyot. 5-sinf. 1-qism (2015, S.Ahmedov, B.Qosimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10575:adabiyot-5-sinf-2-qism-2015-s-ahmedov-b-qosimov">Adabiyot. 5-sinf. 2-qism (2015, S.Ahmedov, B.Qosimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10576:botanika-5-sinf-2015-o-pratov-a-to-xtayev">Botanika. 5-sinf (2015, O'.Pratov, A.To'xtayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10577:geografiya-5-sinf-2015-p-g-ulomov-r-qurbonniyozov">Geografiya. 5-sinf (2015, P.G'ulomov, R.Qurbonniyozov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10578:informatika-5-sinf-2016-d-kamolitdinova">Informatika. 5-sinf (2016, D.Kamolitdinova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=9271:ingliz-tili-5-sinf-2017-l-jo-rayev-s-xan">Ingliz tili. 5-sinf (2017, L.Jo'rayev, S.Xan)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10579:jismoniy-tarbiya-5-6-sinf-2015-t-usmonxo-jayev-s-arzumanov">Jismoniy tarbiya. 5-6-sinf (2015, T.Usmonxo'jayev, S.Arzumanov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=9273:konstitutsiya-olamiga-sayohat-5-sinf-2016-v-kostetskiy-g-tansiqboyeva">Konstitutsiya olamiga sayohat. 5-sinf (2016, V.Kostetskiy, G.Tansiqboyeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10580:matematika-5-sinf-2015-b-haydarov">Matematika. 5-sinf (2015, B.Haydarov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10581:mehnat-ta-limi-5-sinf-2015-sh-sharipov-n-muslimov">Mehnat ta'limi. 5-sinf (2015, Sh.Sharipov, N.Muslimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10582:musiqa-5-sinf-2015-a-mansurov-d-karimova">Musiqa. 5-sinf (2015, A.Mansurov, D.Karimova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10584:ona-tili-5-sinf-2015-n-mahmudov-a-nurmonov">Ona tili. 5-sinf (2015, N.Mahmudov, A.Nurmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10585:rus-tili-5-sinf-2016-yu-musurmanova">Rus tili. 5-sinf (2016, Yu.Musurmanova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10586:tarixdan-hikoyalar-5-sinf-2015-u-jo-rayev-q-usmonov">Tarixdan hikoyalar. 5-sinf (2015, U.Jo'rayev, Q.Usmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10587:tasviriy-san-at-5-sinf-2015-t-kuziyev-s-abdirasulov">Tasviriy san'at. 5-sinf (2015, T.Kuziyev, S.Abdirasulov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/197-5-sinf?download=10588:vatan-tuyg-usi-5-sinf-2015-x-sultonov-m-qarshiboyev">Vatan tuyg'usi. 5-sinf (2015, X.Sultonov, M.Qarshiboyev)</a>
+        </div>
+        <div id="class6" class="class">
+            <h3>6-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=10589:adabiyot-6-sinf-1-qism-2017-s-ahmedov-r-qo-chqorov">Adabiyot. 6-sinf. 1-qism (2017, S.Ahmedov, R.Qo'chqorov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=10590:adabiyot-6-sinf-2-qism-2017-s-ahmedov-r-qo-chqorov">Adabiyot. 6-sinf. 2-qism (2017, S.Ahmedov, R.Qo'chqorov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9281:botanika-6-sinf-2017-o-pratov-a-to-xtayev">Botanika. 6-sinf (2017, O'.Pratov, A.To'xtayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9282:fizika-6-sinf-2017-n-turdiyev">Fizika. 6-sinf (2017, N.Turdiyev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9284:geografiya-6-sinf-2017-a-soatov-a-abdulqosimov">Geografiya. 6-sinf (2017, A.Soatov, A.Abdulqosimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9285:informatika-6-sinf-2017-b-boltayev-m-mahkamov">Informatika. 6-sinf (2017, B.Boltayev, M.Mahkamov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=10591:ingliz-tili-6-sinf-2018-s-xan-l-kamalova">Ingliz tili. 6-sinf (2018, S.Xan, L.Kamalova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9287:konstitutsiya-olamiga-sayohat-6-sinf-2014-v-kostetskiy-g-tansiqboyeva">Konstitutsiya olamiga sayohat. 6-sinf (2014, V.Kostetskiy, G.Tansiqboyeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9288:matematika-6-sinf-2017-m-mirzaahmedov-a-rahimqoriyev">Matematika. 6-sinf (2017, M.Mirzaahmedov, A.Rahimqoriyev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9289:musiqa-6-sinf-2017-s-begmatov">Musiqa. 6-sinf (2017, S.Begmatov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9291:ona-tili-6-sinf-2017-n-mahmudov-a-nurmonov">Ona tili. 6-sinf (2017, N.Mahmudov, A.Nurmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=10593:qadimgi-dunyo-tarixi-6-sinf-2017-a-sagdullayev-v-kostetskiy">Qadimgi dunyo tarixi. 6-sinf (2017, A.Sagdullayev, V.Kostetskiy)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9292:rus-tili-6-sinf-2017-g-gasilova-yu-musurmanova">Rus tili. 6-sinf (2017, G.Gasilova, Yu.Musurmanova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9293:tarix-6-sinf-2017-a-sagdullayev-v-kostetskiy">Tarix. 6-sinf (2017, A.Sagdullayev, V.Kostetskiy)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9294:tasviriy-san-at-6-sinf-2017-q-mirahmedov-b-karimov">Tasviriy san'at. 6-sinf (2017, Q.Mirahmedov, B.Karimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=9295:texnologiya-6-sinf-2017-sh-sharipov-o-qo-ysinov">Texnologiya. 6-sinf (2017, Sh.Sharipov, O.Qo'ysinov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/198-6-sinf?download=10594:vatan-tuyg-usi-6-sinf-2015-x-sultonov-m-qarshiboyev">Vatan tuyg'usi. 6-sinf (2015, X.Sultonov, M.Qarshiboyev)</a>
+        </div>
+        <div id="class7" class="class">
+            <h3>7-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9297:adabiyot-7-sinf-2017-q-yo-ldoshev-b-qosimov">Adabiyot. 7-sinf (2017, Q.Yo'ldoshev, B.Qosimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9298:algebra-7-sinf-2017-sh-alimov-o-xolmuhamedov">Algebra. 7-sinf (2017, Sh.Alimov, O.Xolmuhamedov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9299:fizika-7-sinf-2017-p-habibullayev-a-boydedayev">Fizika. 7-sinf (2017, P.Habibullayev, A.Boydedayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9301:geografiya-7-sinf-2017-p-g-ulomov-p-baratov">Geografiya. 7-sinf (2017, P.G'ulomov, P.Baratov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9302:geometriya-7-sinf-2017-a-a-zamov-b-haydarov">Geometriya. 7-sinf (2017, A.A'zamov, B.Haydarov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9303:informatika-7-sinf-2017-b-boltayev-m-mahkamov">Informatika. 7-sinf (2017, B.Boltayev, M.Mahkamov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=10596:ingliz-tili-7-sinf-2013-l-jo-rayev-m-abdullayeva">Ingliz tili. 7-sinf (2013, L.Jo'rayev, M.Abdullayeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9305:jahon-tarixi-7-sinf-2017-t-salimov-f-sultonov">Jahon tarixi. 7-sinf (2017, T.Salimov, F.Sultonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9306:jismoniy-tarbiya-7-8-sinf-2017-t-usmonxo-jayev-s-arzumanov">Jismoniy tarbiya. 7-8-sinf (2017, T.Usmonxo'jayev, S.Arzumanov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9307:kimyo-7-sinf-2017-i-asqarov-n-to-xtaboyev">Kimyo. 7-sinf (2017, I.Asqarov, N.To'xtaboyev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9308:konstitutsiya-olamiga-sayohat-7-sinf-2014-v-kostetskiy-g-tansiqboyeva">Konstitutsiya olamiga sayohat. 7-sinf (2014, V.Kostetskiy, G.Tansiqboyeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=10597:milliy-istiqlol-g-oyasi-7-sinf-2015-m-qarshiboyev-s-nishonova">Milliy Istiqlol g'oyasi. 7-sinf (2015, M.Qarshiboyev, S.Nishonova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9310:musiqa-7-sinf-2017-o-ibrohimov-j-sadirov">Musiqa. 7-sinf (2017, O.Ibrohimov, J.Sadirov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9312:o-zbekiston-tarixi-7-sinf-2017-a-muhammadjonov">O'zbekiston tarixi. 7-sinf (2017, A.Muhammadjonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=10599:ona-tili-7-sinf-2017-n-mahmudov-a-nurmonov">Ona tili. 7-sinf (2017, N.Mahmudov, A.Nurmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9314:rus-tili-7-sinf-2017-s-islambekova-u-yaminova">Rus tili. 7-sinf (2017, S.Islambekova, U.Yaminova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9315:tasviriy-san-at-7-sinf-2017-a-sulaymonov-n-abdullayev">Tasviriy san'at. 7-sinf (2017, A.Sulaymonov, N.Abdullayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9316:texnologiya-7-sinf-2017-sh-sharipov-o-qo-ysinov">Texnologiya. 7-sinf (2017, Sh.Sharipov, O.Qo'ysinov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/199-7-sinf?download=9317:zoologiya-7-sinf-2017-o-mavlonov">Zoologiya. 7-sinf (2017, O.Mavlonov)</a>
+        </div>
+        <div id="class8" class="class">
+            <h3>8-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10600:adabiyot-8-sinf-1-qism-2014-s-olim-s-ahmedov">Adabiyot. 8-sinf. 1-qism (2014, S.Olim, S.Ahmedov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10601:adabiyot-8-sinf-2-qism-2014-s-olim-s-ahmedov">Adabiyot. 8-sinf. 2-qism (2014, S.Olim, S.Ahmedov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10602:algebra-8-sinf-2014-sh-alimov-o-xolmuhamedov">Algebra. 8-sinf (2014, Sh.Alimov, O.Xolmuhamedov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10603:algebra-8-sinf-idum-2014-m-mirzaahmedov-g-nasritdinov">Algebra. 8-sinf. IDUM (2014, M.Mirzaahmedov, G'.Nasritdinov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10604:chizmachilik-8-sinf-2014-i-rahmonov">Chizmachilik. 8-sinf (2014, I.Rahmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10605:fizika-8-sinf-2014-p-habibullayev-a-boydedayev">Fizika. 8-sinf (2014, P.Habibullayev, A.Boydedayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10607:geografiya-8-sinf-2014-p-musayev-j-musayev">Geografiya. 8-sinf (2014, P.Musayev, J.Musayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10608:geometriya-8-sinf-2014-a-rahimqoriyev-m-to-xtaxo-jayeva">Geometriya. 8-sinf (2014, A.Rahimqoriyev, M.To'xtaxo'jayeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10609:informatika-8-sinf-2015-b-boltayev-a-azamatov">Informatika. 8-sinf (2015, B.Boltayev, A.Azamatov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10610:ingliz-tili-8-sinf-2014-l-jo-rayev-s-xan">Ingliz tili. 8-sinf (2014, L.Jo'rayev, S.Xan)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10611:iqtisodiy-bilim-asoslari-8-sinf-2014-e-sariqov-b-haydarov">Iqtisodiy bilim asoslari. 8-sinf (2014, E.Sariqov, B.Haydarov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10612:jismoniy-tarbiya-7-8-sinf-2017-t-usmonxo-jayev-s-arzumanov">Jismoniy tarbiya. 7-8-sinf (2017, T.Usmonxo'jayev, S.Arzumanov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10613:kimyo-8-sinf-2014-i-asqarov-n-to-xtaboyev">Kimyo. 8-sinf (2014, I.Asqarov, N.To'xtaboyev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10614:milliy-istiqlol-g-oyasi-8-sinf-2015-r-qo-chqorova-s-nishonova">Milliy Istiqlol g'oyasi. 8-sinf (2015, R.Qo'chqorova, S.Nishonova)</a>
+            <a target="_blank" href="./books/8-sinf ozbekiston davlati va huquqi asoslari 8 uzb.pdf">O'zbekiston davlati va huquqi asoslari. 8-sinf (2019,O. KARIMOVA, N. ISMATOVA, SH. SARIQOV, O. AMANOVA)</a>
+            <a target="_blank" href="./books/Jahon tarixi. 8-sinf.pdf">Jahon tarixi. 8-sinf (2014, U.Jo'rayev, R.Farmonov)</a>
+            <a target="_blank" href="./books/O'zbekiston tarixi. 8-sinf.pdf">O'zbekiston tarixi. 8-sinf (2019,USMON JO‘RAYEY, QAMAR USMONOV)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10616:odam-va-uning-salomatligi-8-sinf-2014-b-aminov-t-tilavov">Odam va uning salomatligi. 8-sinf (2014, B.Aminov, T.Tilavov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/200-8-sinf?download=10617:ona-tili-8-sinf-2014-m-qodirov-h-ne-matov">Ona tili. 8-sinf (2014, M.Qodirov, H.Ne'matov)</a>
+            <a target="_blank" href="./books/Rus tili. 8-sinf.pdf">Rus tili. 8-sinf (2014, M.Rojnova, U.Yaminova)</a>
+        </div>
+        <div id="class9" class="class">
+            <h3>9-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10618:adabiyot-9-sinf-1-qism-2014-q-yo-ldoshev-v-qodirov">Adabiyot. 9-sinf. 1-qism (2014, Q.Yo'ldoshev, V.Qodirov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10619:adabiyot-9-sinf-2-qism-2014-q-yo-ldoshev-v-qodirov">Adabiyot. 9-sinf. 2-qism (2014, Q.Yo'ldoshev, V.Qodirov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10620:algebra-9-sinf-2014-sh-alimov-o-xolmuhamedov">Algebra. 9-sinf (2014, Sh.Alimov, O.Xolmuhamedov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10621:biologiya-9-sinf-2014-a-zikiryayev-a-to-xtayev">Biologiya. 9-sinf (2014, A.Zikiryayev, A.To'xtayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10622:chizmachilik-9-sinf-2014-i-rahmonov">Chizmachilik. 9-sinf (2014, I.Rahmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10623:fizika-9-sinf-2014-p-habibullayev-a-boydedayev">Fizika. 9-sinf (2014, P.Habibullayev, A.Boydedayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10625:geometriya-9-sinf-2014-b-haydarov-e-sariqov">Geometriya. 9-sinf (2014, B.Haydarov, E.Sariqov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10626:informatika-9-sinf-2015-b-boltayev-a-azamatov">Informatika. 9-sinf (2015, B.Boltayev, A.Azamatov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10627:ingliz-tili-9-sinf-2014-l-jo-rayev-m-abdullayeva">Ingliz tili. 9-sinf (2014, L.Jo'rayev, M.Abdullayeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10628:iqtisodiy-bilim-asoslari-9-sinf-2014-e-sariqov-b-haydarov">Iqtisodiy bilim asoslari. 9-sinf (2014, E.Sariqov, B.Haydarov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10629:jahon-iqtisodiy-ijtimoiy-geografiyasi-9-sinf-2014-a-qayumov-i-safarov">Jahon iqtisodiy-ijtimoiy geografiyasi. 9-sinf (2014, A.Qayumov, I.Safarov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10630:jahon-tarixi-9-sinf-2014-m-lafasov-u-jo-rayev">Jahon tarixi. 9-sinf (2014, M.Lafasov, U.Jo'rayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10631:kimyo-9-sinf-2014-i-asqarov-n-to-xtaboyev">Kimyo. 9-sinf (2014, I.Asqarov, N.To'xtaboyev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10632:konstitutsiyaviy-huquq-asoslari-9-sinf-2014-g-tansikbayeva-v-kostetskiy">Konstitutsiyaviy huquq asoslari. 9-sinf (2014, G.Tansikbayeva, V.Kostetskiy)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10633:milliy-istiqlol-g-oyasi-9-sinf-2015-o-musurmonova-m-qarshiboyev">Milliy Istiqlol g'oyasi. 9-sinf (2015, O.Musurmonova, M.Qarshiboyev)</a>
+            <a target="_blank" href="./books/O'zbekiston tarixi. 9-sinf.pdf">O'zbekiston tarixi. 9-sinf (2019, S.Tillaboyev, A.Zamonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10635:ona-tili-9-sinf-2014-n-mahmudov-a-nurmonov">Ona tili. 9-sinf (2014, N.Mahmudov, A.Nurmonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/201-9-sinf?download=10636:rus-tili-9-sinf-2014-r-usmanova-k-kadirov">Rus tili. 9-sinf (2014, R.Usmanova, K.Kadirov)</a>
+        </div>
+        <div id="class10" class="class">
+            <h3>10-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9350:adabiyot-10-sinf-1-qism-2017-b-to-xliyev-b-karimov">Adabiyot. 10-sinf. 1-qism (2017, B.To'xliyev, B.Karimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=10637:adabiyot-10-sinf-2-qism-2017-b-to-xliyev-b-karimov">Adabiyot. 10-sinf. 2-qism (2017, B.To'xliyev, B.Karimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=10638:biologiya-10-sinf-2017-j-tolipova-m-umaraliyev">Biologiya. 10-sinf (2017, J.Tolipova, M.Umaraliyev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9352:chaqiruvga-qadar-boshlang-ich-tayyorgarlik-10-sinf-2017-a-shuman-sh-urinov">Chaqiruvga qadar boshlang'ich tayyorgarlik. 10-sinf (2017, A.Shuman, Sh.Urinov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=10639:davlat-va-huquq-asoslari-10-sinf-2017-v-kostetskiy">Davlat va huquq asoslari. 10-sinf (2017, V.Kostetskiy)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=10640:dunyo-dinlari-tarixi-10-sinf-2017-z-islomov-d-rahimjonov">Dunyo dinlari tarixi. 10-sinf (2017, Z.Islomov, D.Rahimjonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9353:fizika-10-sinf-2017-n-turdiyev-k-tursunmetov">Fizika. 10-sinf (2017, N.Turdiyev, K.Tursunmetov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9355:geografiya-10-sinf-2017-sh-sharipova-v-fedorko">Geografiya. 10-sinf (2017, Sh.Sharipova, V.Fedorko)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9356:informatika-10-sinf-2017-n-taylaqov-a-ahmedov">Informatika. 10-sinf (2017, N.Taylaqov, A.Ahmedov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9357:ingliz-tili-10-sinf-2017-f-rashidova-n-tillayeva">Ingliz tili. 10-sinf (2017, F.Rashidova, N.Tillayeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9358:jahon-tarixi-10-sinf-2017-shuhrat-ergashev-b-xodjayev">Jahon tarixi. 10-sinf (2017, Shuhrat Ergashev, B.Xodjayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9359:ma-naviyat-asoslari-10-sinf-2017-v-qo-chqorova-o-mahmudov">Ma'naviyat asoslari. 10-sinf (2017, V.Qo'chqorova, O.Mahmudov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9360:matematika-10-sinf-2017-m-mirzaahmedov-b-haydarov">Matematika. 10-sinf (2017, M.Mirzaahmedov, B.Haydarov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9361:o-zbekiston-tarixi-10-sinf-2017-q-rajabov-a-zamonov">O'zbekiston tarixi. 10-sinf (2017, Q.Rajabov, A.Zamonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9362:ona-tili-10-sinf-2017-n-mahmudov-a-sobirov">Ona tili. 10-sinf (2017, N.Mahmudov, A.Sobirov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9363:organik-kimyo-10-sinf-2017-a-mutalibov-e-murodov">Organik kimyo. 10-sinf (2017, A.Mutalibov, E.Murodov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/202-10-sinf?download=9364:rus-tili-10-sinf-2017-g-rahmatullayeva-t-keldiyev">Rus tili. 10-sinf (2017, G.Rahmatullayeva, T.Keldiyev)</a>
+        </div>
+        <div id="class11" class="class">
+            <h3>11-sinf darsliklari</h3>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10642:adabiyot-11-sinf-1-qism-2018-b-to-xliyev-b-karimov">Adabiyot. 11-sinf. 1-qism (2018, B.To'xliyev, B.Karimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10643:adabiyot-11-sinf-2-qism-2018-b-to-xliyev-b-karimov">Adabiyot. 11-sinf. 2-qism (2018, B.To'xliyev, B.Karimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10644:astronomiya-11-sinf-2018-m-mamadazimov">Astronomiya. 11-sinf (2018, M.Mamadazimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10645:biologiya-11-sinf-2018-a-g-afurov-a-abdukarimov">Biologiya. 11-sinf (2018, A.G'afurov, A.Abdukarimov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10646:chaqiriqqa-qadar-boshlangich-tayyorgarlik-11-sinf-2018-sh-ubaydullayev-b-gafurov">Chaqiriqqa qadar boshlangich tayyorgarlik. 11-sinf (2018, Sh.Ubaydullayev, B.Gafurov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10647:davlat-va-huquq-asoslari-11-sinf-2018-n-ismatova-o-karimova">Davlat va huquq asoslari. 11-sinf (2018, N.Ismatova, O.Karimova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10648:dunyo-dinlari-tarixi-11-sinf-2018-z-islomov-d-rahimjonov">Dunyo dinlari tarixi. 11-sinf (2018. Z.Islomov, D.Rahimjonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10649:fizika-11-sinf-2018-n-turdiyev-k-tursunmetov">Fizika. 11-sinf (2018, N.Turdiyev, K.Tursunmetov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10651:informatika-11-sinf-2018-n-taylaqov-a-ahmedov">Informatika. 11-sinf (2018, N.Taylaqov, A.Ahmedov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10652:ingliz-tili-11-sinf-2018-f-rashidova-n-tillayeva">Ingliz tili. 11-sinf (2018, F.Rashidova, N.Tillayeva)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10653:jahon-tarixi-11-sinf-2018-sh-ergashev-b-xodjayev">Jahon tarixi. 11-sinf (2018, Sh.Ergashev, B.Xodjayev)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10654:ma-naviyat-asoslari-10-11-sinf-2018-v-qo-chqorov-o-mahmudov">Ma'naviyat asoslari. 10-11-sinf (2018, V.Qo'chqorov, O.Mahmudov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10655:matematika-11-sinf-1-qism-2018-m-mirzaahmedov-sh-ismailov">Matematika. 11-sinf. 1-qism (2018, M.Mirzaahmedov, Sh.Ismailov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10656:matematika-11-sinf-2-qism-2018-m-mirzaahmedov-sh-ismailov">Matematika. 11-sinf. 2-qism (2018, M.Mirzaahmedov, Sh.Ismailov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10658:o-zbekiston-tarixi-11-sinf-2018-n-jo-rayev-a-zamonov">O'zbekiston tarixi. 11-sinf (2018,N.Jo'rayev, A.Zamonov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10659:ona-tili-11-sinf-2018-n-mahmudov-y-odilov">Ona tili. 11-sinf (2018, N.Mahmudov, Y.Odilov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10660:rus-tili-11-sinf-2018-s-islambekova-yu-musurmanova">Rus tili. 11-sinf (2018, S.Islambekova, Yu.Musurmanova)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10661:tadbirkorlik-asoslari-11-sinf-2018-u-gafurov-q-sharipov">Tadbirkorlik asoslari. 11-sinf (2018, U.Gafurov, Q.Sharipov)</a>
+            <a target="_blank" href="https://n.ziyouz.com/kutubxona/category/220-11-sinf?download=10662:umumiy-kimyo-11-sinf-2018-s-masharipov-a-mutalibov">Umumiy kimyo. 11-sinf (2018, S.Masharipov, A.Mutalibov)</a>
+        </div>
+    </div>
+    <div>
+        <div id="uzoqova_lola">
+            <img src="./img/profile-user.png" alt="Uzoqova Lola">
+            <div>
+                <h2>Uzoqova Lola</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates distinctio doloribus error sapiente, iste dolore sed necessitatibus, reprehenderit iusto facere vitae quisquam nulla nisi earum sit quas harum incidunt fuga rerum nemo, quis soluta provident dicta! Ipsam debitis recusandae eos quos quod minima possimus, explicabo accusantium nam, animi dolor.</p>
+            </div>
+        </div>
+        <form id="form" name="comment_form" action="https://15-idum.000webhostapp.com/site.php" method="post" onsubmit="return validateForm()" required>
+            <label id="name1" for="name">Ismingizni yozing<span style="color: red;"> *</span></label>
+            <input type="text" name="name" id="name" placeholder="Ismingizni kiriting"><br>
+            <label id="contact1" for="contact">Telefon yoki email pochtani yozing</label>
+            <input type="text" name="contact" id="contact" placeholder="Telefon yoki email pochtani kiriting"><br>
+            <label id="comment1" for="comment">Fikringizni yozing<span style="color: red;"> *</span></label>
+            <textarea type="text" name="comment" id="comment" placeholder="Fikringizni kiriting"></textarea><br>
+            <button style="padding: 3px 10px;" class="submit_button" type="submit">Yuborish</button>
+        </form>
+    </div>
+    <footer id="footer" style="margin: 0 auto; max-width: 2000px;">
+        <div class="foot">
+            <div class="foot_pro">
+                <div>
+                    <a href="https://uzedu.uz" target="_blank"><img src="./img/xtv_icon.jpg" width="40%" alt="Uzedu.uz"></a>
+                    <p>Xalq ta'limi vazirligi</p>
+                </div>
+                <div>
+                    <h4>Ish vaqtlari</h4>
+                    <p>Dushanba-shanba ~ 8:00-18:00</p>
+                    <p>Yakshanba ~ yopiq</p>
+                </div>
+                <div class="tel">
+                    <div class="tel_img"><img src="./img/icons8-phone-50.png" width="15" alt="TEL"></div>
+                    <a id="telclr" href="tel:933382730">93 338 27 30</a>
+                </div>
+            </div>
+            <div class="foot_info">
+                <div style="padding: 10px 0;">
+                    <p>Saytga tashrif buyurganlar soni</p>
+                        <img src="https://hitwebcounter.com/counter/counter.php?page=7963872&style=0030&nbdigits=1&type=ip&initCount=0"/> ta
+                </div>
+                <p>Bizni ijtimoiy tarmoqlarda kuzatib boring</p>
+                <div class="social">
+                    <div style="background-color: blue;" class="social_con">
+                        <a title="Telegram" style="color: var(--color);" class="telegram" href="https://www.telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+                    </div>
+                    <div style="background-color: red;" class="social_con">
+                        <a title="Youtube" style="color: var(--color);" class="youtube" href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div style="background-color: blue;" class="social_con">
+                        <a title="Facebook" style="color: var(--color);" class="facebook" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <div style="background-color: rgb(202, 32, 125);" class="social_con">
+                        <a title="Instagram" style="color: var(--color);" class="instagram" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <p>Mualliflik Huquqi &COPY; 2022<br>Barcha huquqlar himoyalangan</p>
+            </div>
+            <div class="address">
+                <address><b>Manzil:</b><br>O`zbekiston respublikasi<br>Samarqand viloyati<br>Toyloq tumani<br>Baxshitepa qishlog`i<br>Nurli yo`l mahallasi</address>
+                <a href="https://www.google.com/maps/@39.642202,67.0907816,76m/data=!3m1!1e3" target="_blank"><img src="./img/www.google.com_maps_@39.6422218,67.0908467,84m_data=!3m1!1e3.png" style="border-radius: 10px;" width="90%" alt="Xaritadagi joylashuv"></a>
+            </div>
+        </div>
+    </footer>
+    <div id="advertisement" class="advertisement hide1">
+        <button style="border-radius: 0 50px 50px 0;" class="submit_button sbm_btn" onclick="comment()"><a style="text-decoration: none; padding: 1px 10px; border-radius: 0 50px 50px 0;" href="#form">Fikr bildirish</a></button>
+    </div>
+    <div id="theme" class="scroll1 hide3">
+        <button style="background-color: var(--bgcolor); color: var(--color);" id="them" onclick="theme()"><img class="theme_img" style="background-color: white" width="25px" src="./img/icons8-black-and-white-50.png" alt="Theme"></button>
+    </div>
+    <div class="contentDiv" id="content">
+        <button style="background-color: var(--bgcolor);" class="back-to-top" type="button"></button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./script/script.js"></script>
 </body>
 </html>
